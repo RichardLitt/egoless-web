@@ -28,6 +28,18 @@ popular websites.
 `egoless-web` is an open source project, meaning anyone can contribute new CSS
 rules to strip ego numbers from sites they otherwise like and use.
 
+## Installation
+
+Until this is a proper Chrome extension in the "Chrome Store", you'll need to
+perform a few manual steps:
+
+1. clone this git repo somewhere (`git clone
+   https://github.com/RichardLitt/egoless-web`)
+2. open Chrome and navigate to `chrome://extensions`
+3. click on `Developer Mode`
+4. click on `Load unpacked extension..`
+5. select the `egoless-web` folder
+
 # License
 
 ISC
