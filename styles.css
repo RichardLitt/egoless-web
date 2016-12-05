@@ -2,3 +2,17 @@
   display: none;
 }
 
+/* Remove Moments to encourage sharing through personal communication */
+#global-actions > .moments {
+  display: none;
+}
+
+/* Remove profile card statistics to stop thinking of the audience as a number */
+.dashboard .DashboardProfileCard-content .ProfileCardStats {
+  display: none;
+}
+
+/* Remove who to follow to encourage personal discovery over algorithm influcenced suggestions */
+.dashboard .wtf-module, .dashboard .wtf-module.has-content {
+  display: none;
+}
