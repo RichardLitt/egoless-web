@@ -1,3 +1,5 @@
+/* Twitter */
+
 /* Remove the numbers beside Replies, Retweets, and Likes; it doesn't matter
  * how popular anything is. */
 .ProfileTweet-actionCountForPresentation {
@@ -31,5 +33,10 @@
 
 /* Remove promoted tweets; we don't need unsolicited messages from corporations. */
 .promoted-tweet {
+  display: none;
+}
+
+/* Remove Advertise With Twitter, because it reinforces the idea that this is not for communication */
+.Footer-adsModule {
   display: none;
 }
