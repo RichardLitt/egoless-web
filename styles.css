@@ -1,3 +1,5 @@
+/* Remove the numbers beside Replies, Retweets, and Likes; it doesn't matter
+ * how popular anything is. */
 .ProfileTweet-actionCountForPresentation {
   display: none;
 }
@@ -5,6 +7,10 @@
 /* Remove Moments to encourage sharing through personal communication */
 #global-actions > .moments {
   display: none;
+}
+/* 'Create a Moment' panel. */
+.MomentMakerHomeModule {
+  display: none !important;
 }
 
 /* Remove profile card statistics to stop thinking of the audience as a number */
@@ -14,5 +20,16 @@
 
 /* Remove who to follow to encourage personal discovery over algorithm influcenced suggestions */
 .dashboard .wtf-module, .dashboard .wtf-module.has-content {
+  display: none;
+}
+
+/* Remove Trends pane; we don't need to know what Twitter thinks we ought to
+ * pay attention to. */
+.Trends {
+  display: none;
+}
+
+/* Remove promoted tweets; we don't need unsolicited messages from corporations. */
+.promoted-tweet {
   display: none;
 }
