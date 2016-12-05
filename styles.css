@@ -40,3 +40,9 @@
 .Footer-adsModule {
   display: none;
 }
+
+/* Remove impressions, because the numbers aren't meaningful */
+/* Remove Who To Follow */
+.SidebarCommonModules {
+  display: none;
+}
