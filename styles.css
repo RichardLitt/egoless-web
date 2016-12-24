@@ -46,3 +46,35 @@
 .SidebarCommonModules {
   display: none;
 }
+
+
+/* Facebook */
+
+/* Remove Like and Reaction information. Give readers the chance to react
+ * themselves without comparing their reaction to others, or focusing on the
+ * perceived popularity of what was shared. */
+.UFILikeSentence {
+  display: none;
+}
+.UFICommentReactionIconContainer {
+  display: none;
+}
+.UFICommentLikeButton {
+  display: none;
+}
+.3399 {
+  display: none;
+}
+
+/* Remove advertisements and trending topics; these are distractions.
+ * Unsolicited content (ads, trending) are not welcome. */
+#pagelet_ego_pane {
+  display: none;
+}
+#pagelet_trending_tags_and_topics {
+  display: none;
+}
+.cardRightCol {
+  display: none;
+}
+
