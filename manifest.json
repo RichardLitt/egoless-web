@@ -2,9 +2,14 @@
   "manifest_version": 2,
   "name": "egoless-web",
   "version": "0.0.1",
-  "description": "Cut out website gamification and focus on people & content.",
+  "description": "Cut out numbers & gamification from websites and focus on people & content.",
   "content_scripts": [{
     "css": ["styles.css"],
-    "matches": ["https://twitter.com/*"]
+    "matches": [
+      "https://twitter.com/*",
+      "https://www.twitter.com/*",
+      "https://facebook.com/*",
+      "https://www.facebook.com/*"
+    ]
   }]
 }
