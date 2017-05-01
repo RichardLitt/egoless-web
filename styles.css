@@ -21,7 +21,7 @@
 }
 
 /* Remove who to follow to encourage personal discovery over algorithm influcenced suggestions */
-.dashboard .wtf-module, .dashboard .wtf-module.has-content {
+.dashboard .wtf-module, .dashboard .wtf-module.has-content, .WtfLargeCarouselStreamItem {
   display: none;
 }
 
